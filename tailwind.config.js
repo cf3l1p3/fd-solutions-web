@@ -2,18 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {
-      colors: {
-        primary: "rgb(var(--color-primary) / <alpha-value>)",
-      },
-    },
-    container: {
+      container: {
       center: true,
     }
   },
   plugins: [
-    "postcss-import",
-    "tailwindcss/postcss",
+    
   ],
 }
 
