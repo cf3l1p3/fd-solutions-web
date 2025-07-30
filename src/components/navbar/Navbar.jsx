@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { BiPhoneCall, BiSolidSun } from "react-icons/bi";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi" 
-import { FaCaretDown} from "react-icons/fa";
-import ResponsiveMenu from '../navbar/ResponsiveMenu';
-import Logo from '../../assets/generales/Logo3.png'
+import ResponsiveMenu from './ResponsiveMenu';
 
 const Navbar =  () => {
 

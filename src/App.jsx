@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Hero from './components/hero/Hero';
 import OverviewCounter from './components/overview-counter/OverviewCounter';
