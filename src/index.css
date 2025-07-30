@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-/* @theme{
+@theme{
   --color-primary: #000;
-} */
+} 
 
 
 @layer utilities {
