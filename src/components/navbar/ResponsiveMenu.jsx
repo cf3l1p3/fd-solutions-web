@@ -12,16 +12,19 @@ export const ResponsiveMenu = ({showMenu}) => {
               <a href='#'>Inicio</a>
             </li>
             <li>
-              <a href='#'>Servicios</a>
+              <a href='#servicios'>Servicios</a>
             </li>
             <li>
-              <a href='#'>Contactanos</a>
+              <a href='#partners'>Partners</a>
+            </li>
+            <li>
+              <a href='#contactanos'>Contactanos</a>
             </li>
           </ul>
         </nav>
       </div>
       <div className='footer'>
-        <h1>2025 All Rights Rserved</h1>
+        <h1>© 2025, FD Solutions SpA</h1>
       </div>
     </div>
   )

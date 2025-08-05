@@ -3,7 +3,7 @@ import Imagen from '../../assets/Licenciamiento.jpg'
 
 const BannerDetails = ({reverse}) => {
   return (
-    <section className='bg-slate-100'>
+    <section id='servicios' className='bg-slate-100'>
       <div className='container mx-auto flex flex-col items-center justify-center py-10 cd:h-[500px]'>
         <div className='grid grid-cols-1 items-center gap-4 md:grid-cols-2'>
           {/* Text Container */}

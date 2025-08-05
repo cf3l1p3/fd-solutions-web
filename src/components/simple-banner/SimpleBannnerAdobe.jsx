@@ -3,7 +3,7 @@ import Imagen from '../../assets/adobe/Channel_Partner_badges_Adobe_Registered_R
 
 const SimpleBannnerAdobe = () => {
   return (
-    <div className='bg-primary'>
+    <div id="partners" className='bg-primary'>
       <div
         data-aos="fade-up" 
         className='container mx-auto py-8 md:py-12'>

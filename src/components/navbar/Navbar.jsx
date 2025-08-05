@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { BiPhoneCall, BiSolidSun } from "react-icons/bi";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi" 
 import ResponsiveMenu from './ResponsiveMenu';
+import Logo from '../../assets/generales/Logo.svg';
 
 const Navbar =  () => {
 
@@ -17,6 +18,7 @@ const Navbar =  () => {
         <nav className='container mx-auto flex items-center justify-between h-[70px] py-2'>
           {/* Logo Section*/}
           <div className="text-2xl md:text-3xl text-white">
+            
             <a href="#">
               {" "} FD
             </a><span className="inline-block font-bold text-primary">&nbsp;Solutions</span>
@@ -42,7 +44,7 @@ const Navbar =  () => {
                 </div> */}
               </li>
               <li className="group relative cursor-pointer">
-                <a href="#" className="flex items-center gap-[2px] h-[72px]"> 
+                <a href="#servicios" className="flex items-center gap-[2px] h-[72px]"> 
                   Servicios {" "}
                   {/* <span>
                     <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
@@ -61,12 +63,12 @@ const Navbar =  () => {
                   hover:bg-primary/90" />
                 </div> */}
                 <div>
-                  <a href="#" className="flex items-center gap-[2px] h-[72px]">
-                    <p> Partners</p>
+                  <a href="#partners" className="flex items-center gap-[2px] h-[72px]">
+                    <p>Partners</p>
                   </a>
                 </div>
                 <div>
-                  <p>contacto@fdsolutions.cl</p>
+                  <p><a href="#contactanos">Contáctanos</a></p>
                   {/* <p>+56 9 8533 4038</p> */}
                 </div>
                 </div>
