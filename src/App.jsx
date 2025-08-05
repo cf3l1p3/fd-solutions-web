@@ -11,7 +11,8 @@ import Blogs from './components/blogs/Blogs';
 import AOS from 'aos';
 import "aos/dist/aos.css"
 import SimpleBannnerAdobe from './components/simple-banner/SimpleBannnerAdobe';
-import ContactUs from './components/contact-us/contactUs';
+import ContactUs from './components/contact-us/ContactUs';
+
 
 function App() {
   useEffect(() => {
