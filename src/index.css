@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 @theme{
-  --color-primary: #000;
+  --color-primary: #000000;
 } 
 
 @layer utilities {
   .bg-navbar {
-    background-image: linear-gradient(to left, #083344, #0e7490, #06b6d4); /* cyan-900, cyan-700, cyan-500 */
+    background-image: linear-gradient(to left, #244c5c, #0e7490, #06b6d4); /* cyan-900, cyan-700, cyan-500 */
    };
   .btn-primary{
     @apply rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary

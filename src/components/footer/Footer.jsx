@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow} from 'react-icons/fa'
 import { IoMailSharp } from 'react-icons/io5'
 import FooterLinks from './FooterLinks'
+import Logo from '../../../public/logo-full-black.png';
 
 const Footer = () => {
 
@@ -27,14 +28,17 @@ const Footer = () => {
         <div className='container mx-auto max-w-[1200px] p-4'>
           {/*Footer contain section*/}
           <div className='grid py-5 md:grid-cols-3'>
-            <div className='px-4 py-8'>
+            <div className='px-4 py-8 relative'>
               <a href="#">
-              {" "} FD
-              </a><span className="inline-block font-bold text-primary">&nbsp;Solutions</span>
+                <img src={Logo} className="p-1 max-w-[120px] absolute top-0"/>
+              </a>
+              <br />
+              <br />
+              <br />
+
               {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aliquam soluta earum qui. 
               </p> */}
-              <br />
-              <br />
+              
                <div className='flex items-center gap-3'>
                 <FaLocationArrow />
                 <p>La Florida, Santiago</p>

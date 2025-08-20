@@ -9,9 +9,9 @@ const BannerDetails = ({reverse}) => {
           {/* Text Container */}
           <div
               data-aos="fade-right"
-              data-aos-duration="400"
+              data-aos-duration="500"
               data-aos-once="true" 
-            className={`flex flex-col items-start gap-4 text-left md:items-start md:p-8 md:text-left
+            className={`flex flex-col items-start gap-4 text-center md:items-start md:p-8 md:text-left
             ${ reverse ? "md:order-last" : "" }`}>
             <h1 className='font-bold'>
               Licenciamiento de Software
@@ -27,7 +27,7 @@ const BannerDetails = ({reverse}) => {
           {/* Image Container */}
           <div 
             data-aos="fade-left"
-            data-aos-duration="400"
+            data-aos-duration="500"
             className={reverse ? "order-1" : ""}>
             <img src={Imagen} alt='not found' className='mx-auto w-full p-4 max-w-[400px]'>
             </img>

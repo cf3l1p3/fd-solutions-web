@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BiPhoneCall, BiSolidSun } from "react-icons/bi";
 import { HiMenuAlt1, HiMenuAlt3 } from "react-icons/hi" 
 import ResponsiveMenu from './ResponsiveMenu';
-import Logo from '../../assets/generales/Logo.svg';
+import Logo from '../../../public/logo-full-black.png';
 
 const Navbar =  () => {
 
@@ -14,14 +14,13 @@ const Navbar =  () => {
 
   return (
     <>
-    <header className='fixed top-0 left-0 right-0 z-[99] bg-navbar text-white border-b[1px] border-primary/50'> 
-        <nav className='container mx-auto flex items-center justify-between h-[70px] py-2'>
+    <header className='fixed top-0 left-0 right-0 z-[99] bg-navbar text-white'> 
+        <nav className='container mx-auto flex items-center justify-between h-[70px]'>
           {/* Logo Section*/}
-          <div className="text-2xl md:text-3xl text-white">
-            
+          <div>
             <a href="#">
-              {" "} FD
-            </a><span className="inline-block font-bold text-primary">&nbsp;Solutions</span>
+              <img src={Logo} className="max-w-[120px] p-1"/>
+            </a>
           </div>
           {/* Desktop menu Section*/}
           <div className="hidden md:block">
